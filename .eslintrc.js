@@ -54,4 +54,11 @@ module.exports = {
     '@typescript-eslint/no-explicit-any': 'off',
     '@typescript-eslint/no-empty-function': 'off',
   },
+  settings: {
+    'import/resolver': {
+      "babel-plugin-root-import": {
+        rootPathSuffix: 'src'
+      }
+    }
+  }
 };

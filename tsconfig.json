@@ -16,6 +16,9 @@
     "module": "esnext",
     "moduleResolution": "node",
     "baseUrl": "./src",
+    "paths": {
+      "~/*": ["*"]
+    },
     "rootDir": "./src",
     "resolveJsonModule": true,
     "isolatedModules": true,
